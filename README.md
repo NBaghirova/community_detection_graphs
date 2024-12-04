@@ -90,7 +90,7 @@ import numpy as np
 
  Define the adjacency matrix
 A = np.array([
-Your adjacency matrix
+**Your adjacency matrix**
 ])
 k = 2
 result = find_k_community(A, k)
@@ -100,11 +100,11 @@ print(f"Resulting k-communities: {result}")
 ## Running Tests
 
 To ensure the correctness of the implementation, you can run the tests:
+```
 pytest tests/
-
+```
 ---
 ## References
-M. Olsen. A general view on computing communities. Mathematical
-Social Sciences, 66(3):331–336, 2013.
-N. Baghirova and A. Castillon, Proportionally dense subgraphs: parameterized hardness and efficiently solvable cases, The 19th International Conference and Workshops on Algorithms and Computation, 2024
+1. M. Olsen. A general view on computing communities. Mathematical Social Sciences, 66(3):331–336, 2013.
+2. N. Baghirova and A. Castillon, Proportionally dense subgraphs: parameterized hardness and efficiently solvable cases, The 19th International Conference and Workshops on Algorithms and Computation, 2024
 
