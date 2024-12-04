@@ -52,16 +52,14 @@ Before running the programs, ensure the following:
 ## Installation
 
 ### Clone the Repository
-```bash
+```
 git clone https://github.com/NBaghirova/community_detection_graphs.git
 cd community_detection_graphs
-
+```
+### Install the required dependencies:
+```pip install -r requirements.txt
+```
 ---
-
-## Install the required dependencies:
-pip install -r requirements.txt
----
-
 ## Directory Structure
 
 community_detection_graphs/
@@ -80,24 +78,27 @@ community_detection_graphs/
 
 ---
 ## Usage
----
-### Importing the Functions
-You can use the functions in your own Python scripts by importing them from the src directory. Below is an example on k-community:
 
+### Importing the Functions
+You can use the functions in your own Python scripts by importing them from the src directory. Below is an example of k-community:
+```
 from src.k_community import find_k_community
 import numpy as np
 
-# Define the adjacency matrix
+ Define the adjacency matrix
 A = np.array([
 Your adjacency matrix
 ])
 k = 2
 result = find_k_community(A, k)
 print(f"Resulting k-communities: {result}")
+```
 ---
 ## Running Tests
+
 To ensure the correctness of the implementation, you can run the tests:
 pytest tests/
+
 ---
 ## References
 M. Olsen. A general view on computing communities. Mathematical
