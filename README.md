@@ -57,11 +57,13 @@ git clone https://github.com/NBaghirova/community_detection_graphs.git
 cd community_detection_graphs
 ```
 ### Install the required dependencies:
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 ---
 ## Directory Structure
-
+The project directory is organized as follows:
+```
 community_detection_graphs/
 ├── src/
 │   ├── k_community.py          
@@ -75,6 +77,7 @@ community_detection_graphs/
 │   ├── test_connected_max_community.py
 ├── README.md         
 └── requirements.txt      
+```
 
 ---
 ## Usage
