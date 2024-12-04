@@ -88,7 +88,6 @@ You can use the functions in your own Python scripts by importing them from the 
 from src.k_community import find_k_community
 import numpy as np
 
- Define the adjacency matrix
 A = np.array([
 **Your adjacency matrix**
 ])
